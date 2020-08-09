@@ -1,0 +1,42 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": true,
+    "frameRate": 60,
+    "noCache": false,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d",
+        "extensions"
+    ],
+    "jsListOrder": [
+        "src/components/ResizeListener.js",
+        "src/**/*.js"
+    ],
+    "jsList": [
+        "src/components/ResizeListener.js",
+        "src/components/EnableOnLandscape.js",
+        "src/components/EnableOnPortrait.js",
+        "src/components/FitToParent.js",
+        "src/components/FitToWindow.js",
+        "src/components/GameLayerResizer.js",
+        "src/components/MoveBall.js",
+        "src/components/MovePaddle.js",
+        "src/components/ToMainScene.js",
+        "src/components/UpdateScore.js",
+        "src/layers/GameOverLayer.js",
+        "src/layers/PongLayer.js",
+        "src/layers/TitleLayer.js",
+        "src/layouts/LandscapeLayout.js",
+        "src/layouts/NineSliceLayout.js",
+        "src/layouts/PortraitLayout.js",
+        "src/resource.js",
+        "src/scenes/GameOverScene.js",
+        "src/scenes/PongScene.js",
+        "src/scenes/TitleScene.js",
+        "src/sprites/Ball.js",
+        "src/sprites/Paddle.js"
+    ]
+}
